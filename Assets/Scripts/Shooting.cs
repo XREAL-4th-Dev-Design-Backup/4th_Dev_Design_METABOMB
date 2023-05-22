@@ -6,17 +6,21 @@ public class Shooting : MonoBehaviour
 {
     [SerializeField] private GameObject firePos;  //총알 생성 위치
     [SerializeField] private GameObject hitFx; //총알 맞았다는 효과  
-    private Transform swanPoint; //ray 선 끝 위치
+    [SerializeField] private Vector3 gunPosition;
+    //[SerializeField] private GameObject gun;
+    //private Transform swanPoint; //ray 선 끝 위치
     Color rayColor = Color.red; //ray 선 색깔
 
     void Start()
     {
-        
+        //gun.transform.position = gunPosition;
+        //gunPosition = OVRInput.GetLocalControllerPosition(OVRInput.Controller.RTouch);
     }
 
     // Update is called once per frame
     void Update()
     {
+        //gun.transform.position = OVRInput.GetLocalControllerPosition(OVRInput.Controller.RTouch);
         DrawRay();
         //trigger 누를 때
         if (OVRInput.GetDown(OVRInput.Button.SecondaryIndexTrigger))
@@ -51,6 +55,6 @@ public class Shooting : MonoBehaviour
     
     void DrawRay()
     {
-        Debug.DrawRay(firePos.transform.position, swanPoint.forward * 30, rayColor);
+        Debug.DrawRay(firePos.transform.position, firePos.transform.forward * 30, rayColor);
     }
 }
