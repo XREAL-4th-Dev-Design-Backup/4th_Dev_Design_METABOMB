@@ -1,18 +1,20 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Shooting : MonoBehaviour
 {
-    [SerializeField] private GameObject firePos;  //ÃÑ¾Ë »ı¼º À§Ä¡
-    [SerializeField] private GameObject hitFx; //ÃÑ¾Ë ¸Â¾Ò´Ù´Â È¿°ú  
+    [SerializeField] private GameObject firePos;  //ì´ì•Œ ìƒì„± ìœ„ì¹˜
+    [SerializeField] private GameObject bulletFx; //ì´ì•Œ íš¨ê³¼
     [SerializeField] private Vector3 gunPosition;
     //[SerializeField] private GameObject gun;
-    //private Transform swanPoint; //ray ¼± ³¡ À§Ä¡
-    Color rayColor = Color.red; //ray ¼± »ö±ò
+    //private Transform swanPoint; //ray ì„  ë ìœ„ì¹˜
+    private bool leftIsGrabbed, rightIsGrabbed;
 
     void Start()
     {
+        leftIsGrabbed = false;
+        rightIsGrabbed = false;
         //gun.transform.position = gunPosition;
         //gunPosition = OVRInput.GetLocalControllerPosition(OVRInput.Controller.RTouch);
     }
@@ -22,10 +24,19 @@ public class Shooting : MonoBehaviour
     {
         //gun.transform.position = OVRInput.GetLocalControllerPosition(OVRInput.Controller.RTouch);
         DrawRay();
-        //trigger ´©¸¦ ¶§
-        if (OVRInput.GetDown(OVRInput.Button.SecondaryIndexTrigger))
+        //trigger ëˆ„ë¥¼ ë•Œ
+        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch) && rightIsGrabbed)    //ì˜¤ë¥¸ì†
         {
+            FireposFx();
             TriggerShoot();
+            OVRInput.SetControllerVibration(0.1f, 0.1f, OVRInput.Controller.RTouch);    //ì§„ë™
+        }
+
+        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.LTouch) && leftIsGrabbed)    //ì™¼ì†
+        {
+            FireposFx();
+            TriggerShoot();
+            OVRInput.SetControllerVibration(0.1f, 0.1f, OVRInput.Controller.LTouch);    //ì§„ë™
         }
     }
 
@@ -33,28 +44,59 @@ public class Shooting : MonoBehaviour
     {
         Ray ray = new Ray(firePos.transform.position, firePos.transform.forward);
         RaycastHit hitInfo;
-        //Å©¸®½ºÅĞ¿¡ ÃÑ¾ËÀÌ ¸Â¾ÒÀ¸¸é
-        if(Physics.Raycast(ray, out hitInfo))
+        //í¬ë¦¬ìŠ¤í„¸ì— ì´ì•Œì´ ë§ì•˜ìœ¼ë©´
+        if(Physics.Raycast(ray, out hitInfo, 30))
         {
-            if(hitInfo.collider.tag == "crystal")
+            //Debug.Log("hit!!!!!!!!!!!!!!:"+hitInfo.collider.gameObject.name);
+            if (hitInfo.collider.gameObject.tag == "crystal")
             {
                 BulletImpact(hitInfo);
                 Destroy(hitInfo.transform.gameObject);
-                //Å©¸®½ºÅĞ ±úÁú ¶§ È¿°ú ³ÖÀ» °Å¸é ÇÔ¼ö »ı¼ºÇØ¼­ ³Ö±â
+                //í¬ë¦¬ìŠ¤í„¸ ê¹¨ì§ˆ ë•Œ íš¨ê³¼ ë„£ì„ ê±°ë©´ í•¨ìˆ˜ ìƒì„±í•´ì„œ ë„£ê¸°
             }
         }
 
     }
 
+    public void FireposFx()
+    {
+        ParticleSystem ps = bulletFx.GetComponent<ParticleSystem>();
+        ps.Play();  //íš¨ê³¼ ìƒì„±
+    }
+
     public void BulletImpact(RaycastHit hitInfo)
     {
-        ParticleSystem ps = hitFx.GetComponent<ParticleSystem>();
-        ps.Play();  //È¿°ú »ı¼º
-        //Instantiate(hitFx, hitInfo.point, Quaternion.identity); 
+        //ParticleSystem ps = bulletFx.GetComponent<ParticleSystem>();
+        //ps.Play();  //íš¨ê³¼ ìƒì„±
+        Instantiate(bulletFx, hitInfo.point, Quaternion.identity); 
     }
     
     void DrawRay()
     {
-        Debug.DrawRay(firePos.transform.position, firePos.transform.forward * 30, rayColor);
+        Debug.DrawRay(firePos.transform.position, firePos.transform.forward * 30, Color.red);
     }
+    
+    public void isGrabbedTrue()
+    {
+        if (OVRInput.GetDown(OVRInput.Button.PrimaryHandTrigger, OVRInput.Controller.LTouch))
+        {
+            leftIsGrabbed = true;
+        }
+        if (OVRInput.GetDown(OVRInput.Button.PrimaryHandTrigger, OVRInput.Controller.RTouch))
+        {
+            rightIsGrabbed = true;
+        }
+    }
+
+    public void isGrabbedFalse()
+    {
+        if (OVRInput.GetUp(OVRInput.Button.PrimaryHandTrigger, OVRInput.Controller.LTouch))
+        {
+            leftIsGrabbed = false;
+        }
+        if (OVRInput.GetUp(OVRInput.Button.PrimaryHandTrigger, OVRInput.Controller.RTouch))
+        {
+            rightIsGrabbed = false;
+        }
+    }   
 }
