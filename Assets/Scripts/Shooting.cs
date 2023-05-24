@@ -51,8 +51,7 @@ public class Shooting : MonoBehaviour
             if (hitInfo.collider.gameObject.tag == "crystal")
             {
                 BulletImpact(hitInfo);
-                Destroy(hitInfo.transform.gameObject);
-                //크리스털 깨질 때 효과 넣을 거면 함수 생성해서 넣기
+                hitInfo.collider.gameObject.GetComponent<CrystalBlow>().onCollisionEnter(); //격추 시 크리스탈 효과
             }
         }
 
