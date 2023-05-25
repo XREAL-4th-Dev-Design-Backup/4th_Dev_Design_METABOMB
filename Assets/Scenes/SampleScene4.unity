@@ -1180,6 +1180,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1958699695}
     m_Modifications:
+    - target: {fileID: 1605375095884104330, guid: b3be6ab9c95a1e743ba5ceb80cca20f1, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 4656329019120666376, guid: b3be6ab9c95a1e743ba5ceb80cca20f1, type: 3}
       propertyPath: m_Name
       value: Cylinder (2)
