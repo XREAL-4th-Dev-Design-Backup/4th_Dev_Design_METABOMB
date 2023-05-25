@@ -5,24 +5,19 @@ using UnityEngine;
 public class Shooting : MonoBehaviour
 {
     [SerializeField] private GameObject firePos;  //총알 생성 위치
-    [SerializeField] private GameObject bulletFx; //총알 효과
-    [SerializeField] private Vector3 gunPosition;
-    //[SerializeField] private GameObject gun;
-    //private Transform swanPoint; //ray 선 끝 위치
+    [SerializeField] private GameObject bulletFx; //총구 효과
+    [SerializeField] private GameObject collisionFx; //크리스탈 충돌 효과
     private bool leftIsGrabbed, rightIsGrabbed;
 
     void Start()
     {
         leftIsGrabbed = false;
         rightIsGrabbed = false;
-        //gun.transform.position = gunPosition;
-        //gunPosition = OVRInput.GetLocalControllerPosition(OVRInput.Controller.RTouch);
     }
 
     // Update is called once per frame
     void Update()
     {
-        //gun.transform.position = OVRInput.GetLocalControllerPosition(OVRInput.Controller.RTouch);
         DrawRay();
         //trigger 누를 때
         if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch) && rightIsGrabbed)    //오른손
@@ -47,7 +42,6 @@ public class Shooting : MonoBehaviour
         //크리스털에 총알이 맞았으면
         if(Physics.Raycast(ray, out hitInfo, 30))
         {
-            //Debug.Log("hit!!!!!!!!!!!!!!:"+hitInfo.collider.gameObject.name);
             if (hitInfo.collider.gameObject.tag == "crystal")
             {
                 BulletImpact(hitInfo);
@@ -65,9 +59,7 @@ public class Shooting : MonoBehaviour
 
     public void BulletImpact(RaycastHit hitInfo)
     {
-        //ParticleSystem ps = bulletFx.GetComponent<ParticleSystem>();
-        //ps.Play();  //효과 생성
-        Instantiate(bulletFx, hitInfo.point, Quaternion.identity); 
+        Instantiate(collisionFx, hitInfo.point, Quaternion.identity); 
     }
     
     void DrawRay()
