@@ -44,7 +44,7 @@ public class AudioManager : MonoBehaviour
                 //(intro_music[i].name=="part2")|| (intro_music[i].name=="part4")
                 //(intro_music[i].name=="글리치 효과음 2")|| (intro_music[i].name=="글리치 효과음 4")
 
-                if ((intro_music[i].name=="글리치 효과음 2")|| (intro_music[i].name=="글리치 효과음 4"))
+                if ((intro_music[i].name=="part2")|| (intro_music[i].name=="part4"))
                 {
                     print("하이라이트구간");
                     gameObject.GetComponent<BPM>().enabled = true;

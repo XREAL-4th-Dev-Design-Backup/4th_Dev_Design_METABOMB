@@ -17,8 +17,25 @@ using UnityEngine;
 public class BPM : MonoBehaviour
 {
      //ScaleCube moveNote;
-    InstantiateCrystal insCrystal;
-    public GameObject cylinder;
+    InstantiateCrystal insCrystal1;
+    InstantiateCrystal insCrystal2;
+    InstantiateCrystal insCrystal3;
+    InstantiateCrystal insCrystal4;
+    InstantiateCrystal insCrystal5;
+    InstantiateCrystal insCrystal6;
+    InstantiateCrystal insCrystal7;
+    InstantiateCrystal insCrystal8;
+
+
+    public GameObject cylinder1;
+    public GameObject cylinder2;
+    public GameObject cylinder3;
+    public GameObject cylinder4;
+    public GameObject cylinder5;
+    public GameObject cylinder6;
+    public GameObject cylinder7;
+    public GameObject cylinder8;
+
     //public List<Transform> cylinder;
 
     float musicBPM = 129f;
@@ -34,7 +51,15 @@ public class BPM : MonoBehaviour
     void Start()
     {
         //moveNote = GameObject.Find("Cube").GetComponent<ScaleCube>();
-        insCrystal = cylinder.GetComponent<InstantiateCrystal>();
+        insCrystal1 = cylinder1.GetComponent<InstantiateCrystal>();
+        insCrystal2 = cylinder2.GetComponent<InstantiateCrystal>();
+        insCrystal3 = cylinder3.GetComponent<InstantiateCrystal>();
+        insCrystal4 = cylinder4.GetComponent<InstantiateCrystal>();
+        insCrystal5 = cylinder5.GetComponent<InstantiateCrystal>();
+        insCrystal6 = cylinder6.GetComponent<InstantiateCrystal>();
+        insCrystal7 = cylinder7.GetComponent<InstantiateCrystal>();
+        insCrystal8 = cylinder8.GetComponent<InstantiateCrystal>();
+
     }
 
     // Update is called once per frame
@@ -57,7 +82,15 @@ public class BPM : MonoBehaviour
     IEnumerator PlayTikTime(float tikTime)
     {
         Debug.Log(nextTime);
-        insCrystal.InsCrystal();
+        insCrystal1.InsCrystal();
+        insCrystal2.InsCrystal();
+        insCrystal3.InsCrystal();
+        insCrystal4.InsCrystal();
+        insCrystal5.InsCrystal();
+        insCrystal6.InsCrystal();
+        insCrystal7.InsCrystal();
+        insCrystal8.InsCrystal();
+        //실린더에 붙어 있는 InstantiateCrystal 스크립트의 insCrystal 함수 실행
         yield return new WaitForFixedUpdate();
     }
 }
