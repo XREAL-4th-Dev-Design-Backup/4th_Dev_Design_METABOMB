@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/MetaBomb/Scenes/SampleScene 1.unity.meta
 guid: d4f65bdddb1fac74db0f4710236a4247
+========
+guid: 324552e1455881a4c8ffdd4caaebd57c
+>>>>>>>> origin/yujin:Assets/MetaBomb/Scenes/sample.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
