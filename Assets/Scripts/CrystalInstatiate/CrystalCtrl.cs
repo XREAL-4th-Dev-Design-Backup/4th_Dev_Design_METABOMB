@@ -26,12 +26,12 @@ public class CrystalCtrl : MonoBehaviour
     }
     IEnumerator ShotBall()
     {
-        Debug.Log("=== Simulation ===");
+        //Debug.Log("=== Simulation ===");
 
         isGround = false;
         // 공의 각도를 설정
 
-        ballRB2D.AddForce(Vector3.up * 30, ForceMode.Impulse);
+        ballRB2D.AddForce(Vector3.up * 15, ForceMode.Impulse);
         //transform.right = new Vector3(Mathf.Cos(shotAngle * Mathf.Deg2Rad), Mathf.Sin(shotAngle * Mathf.Deg2Rad));
         // 설정된 각도 shotVelocity 속도로 발사
         ballRB2D.velocity = transform.right * shotVelocity;
@@ -50,7 +50,7 @@ public class CrystalCtrl : MonoBehaviour
             {
 
                 isCenter = true;
-                Debug.Log("CenterHeight: " + transform.position.y);
+                //Debug.Log("CenterHeight: " + transform.position.y);
             }
         }
     }

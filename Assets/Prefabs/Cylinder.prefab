@@ -132,4 +132,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f93c92a54bb35684785fc05b21d09e06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  crystalPrefab: {fileID: 321221488873552633, guid: 585dfb2155e458f48aadd2534e9d36e3, type: 3}
+  crystalPrefab: {fileID: 4063841269085348731, guid: 9245caf56388402409846127a36ce590, type: 3}

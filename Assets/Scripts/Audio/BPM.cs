@@ -76,7 +76,7 @@ public class BPM : MonoBehaviour
         }
 
         float temp = (musicBPM / stdBPM) * (musicBPM / stdTempo);
-        Debug.Log(temp);
+        //Debug.Log(temp);
     }
 
     IEnumerator PlayTikTime(float tikTime)

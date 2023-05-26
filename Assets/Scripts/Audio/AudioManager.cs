@@ -12,7 +12,7 @@ public class AudioManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        soundSource = GetComponent<AudioSource>();
+        soundSource = this.gameObject.GetComponent<AudioSource>();
         StartCoroutine("Playlist");
     }
 
@@ -43,13 +43,17 @@ public class AudioManager : MonoBehaviour
 
                 //(intro_music[i].name=="part2")|| (intro_music[i].name=="part4")
                 //(intro_music[i].name=="글리치 효과음 2")|| (intro_music[i].name=="글리치 효과음 4")
+                //(soundSource.clip==intro_music[1]|| soundSource.clip==intro_music[3])
 
-                if ((intro_music[i].name=="part2")|| (intro_music[i].name=="part4"))
+                if (soundSource.clip==intro_music[1]|| soundSource.clip==intro_music[3])
                 {
                     print("하이라이트구간");
                     gameObject.GetComponent<BPM>().enabled = true;
                     cylinders.SetActive(true);
                 }
+
+                
+                
 
                 
                 
