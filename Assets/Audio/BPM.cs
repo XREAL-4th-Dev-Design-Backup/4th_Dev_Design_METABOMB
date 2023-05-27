@@ -38,7 +38,7 @@ public class BPM : MonoBehaviour
 
     //public List<Transform> cylinder;
 
-    float musicBPM = 129f;
+    float musicBPM = 30f; //129
     float stdBPM = 60f;
 
     int muscicTempo = 4;

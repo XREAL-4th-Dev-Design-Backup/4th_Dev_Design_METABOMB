@@ -13,6 +13,13 @@ public class CrystalCtrl : MonoBehaviour
     private bool isGround = true;
     private bool isCenter = false;
     private float totalTime = 0f;
+    
+    Gameobject cylindes = transform.find("Cylinders").gameObject;
+    Gameobject cylinder[8] = cylinders.GetAllChilds();
+
+
+
+
 
     void Start()
     {
