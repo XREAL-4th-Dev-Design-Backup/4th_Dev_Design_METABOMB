@@ -156,7 +156,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Contrast",
     "m_StageCapability": 3,
-    "m_Value": 1.2000000476837159,
+    "m_Value": 2.0,
     "m_DefaultValue": 1.0,
     "m_Labels": []
 }
@@ -945,10 +945,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -809.5999755859375,
-            "y": 372.79998779296877,
-            "width": 208.0,
-            "height": 432.00006103515627
+            "x": -870.0,
+            "y": 75.99999237060547,
+            "width": 209.3333740234375,
+            "height": 438.66656494140627
         }
     },
     "m_Slots": [
