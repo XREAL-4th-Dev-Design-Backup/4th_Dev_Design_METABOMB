@@ -35,6 +35,6 @@ public class InstantiateCrystal : MonoBehaviour
 
         //crystal.GetComponent<Rigidbody>().AddForce(new Vector3(25, 0, 0), ForceMode.Impulse);
 
-        Destroy(crystal, 5f);
+        Destroy(crystal, 3f);
     }
 }
