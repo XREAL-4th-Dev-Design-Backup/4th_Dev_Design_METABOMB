@@ -4,6 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - crystal
   - bong
   layers:
   - Default

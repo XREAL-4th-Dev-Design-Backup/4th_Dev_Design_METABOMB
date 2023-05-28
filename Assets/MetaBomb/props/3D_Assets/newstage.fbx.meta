@@ -6,6 +6,9 @@ ModelImporter:
   - first:
       74: -1498010087492872569
     second: CINEMA_4D_Main
+  - first:
+      74: 2644967675738633634
+    second: main|main|CINEMA_4D_Main|Layer0
   externalObjects: {}
   materials:
     materialImportMode: 2
