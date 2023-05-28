@@ -47,6 +47,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blowVersion: {fileID: 8455970072603317101, guid: 522084720e75d5d4cb6ce112a47695ce, type: 3}
+  ExplosionVersion: {fileID: 8592521626910722175, guid: 1b15aa4da97ebf84796098ed28b36681, type: 3}
+  ExplosionDelayTime: 5
 --- !u!136 &10227406502419804
 CapsuleCollider:
   m_ObjectHideFlags: 0
