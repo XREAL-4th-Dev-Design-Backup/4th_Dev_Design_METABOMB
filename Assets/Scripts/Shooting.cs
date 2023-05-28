@@ -8,6 +8,7 @@ public class Shooting : MonoBehaviour
     [SerializeField] private GameObject bulletFx; //총구 효과
     [SerializeField] private GameObject collisionFx; //크리스탈 충돌 효과
     private bool leftIsGrabbed, rightIsGrabbed;
+    public bool isGunSetting;
 
     void Start()
     {
@@ -18,21 +19,28 @@ public class Shooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        DrawRay();
-        //trigger 누를 때
-        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch) && rightIsGrabbed)    //오른손
+        isGunSetting = GetComponent<SwitchAnimation>().isGunSetting;
+        if (isGunSetting)   //main interaction일때만 작동
         {
-            FireposFx();
-            TriggerShoot();
-            OVRInput.SetControllerVibration(0.1f, 0.1f, OVRInput.Controller.RTouch);    //진동
+            DrawRay();
+            //trigger 누를 때
+            //if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch) && rightIsGrabbed)    //오른손, grabbed 구별
+            if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch))    //오른손, grabbed 미구별
+            {
+                FireposFx();
+                TriggerShoot();
+                OVRInput.SetControllerVibration(0.1f, 0.1f, OVRInput.Controller.RTouch);    //진동
+            }
+
+            //if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.LTouch) && leftIsGrabbed)    //왼손, grabbed 구별
+            if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.LTouch))    //왼손, grabbed 미구별
+            {
+                FireposFx();
+                TriggerShoot();
+                OVRInput.SetControllerVibration(0.1f, 0.1f, OVRInput.Controller.LTouch);    //진동
+            }
         }
 
-        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.LTouch) && leftIsGrabbed)    //왼손
-        {
-            FireposFx();
-            TriggerShoot();
-            OVRInput.SetControllerVibration(0.1f, 0.1f, OVRInput.Controller.LTouch);    //진동
-        }
     }
 
     public void TriggerShoot()
