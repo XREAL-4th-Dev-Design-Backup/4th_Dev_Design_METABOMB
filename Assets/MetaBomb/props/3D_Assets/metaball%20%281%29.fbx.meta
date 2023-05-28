@@ -1,26 +1,11 @@
 fileFormatVersion: 2
-guid: 3039511741a5c37418332e7172029dad
+guid: a07b3c27ffac74f018ee8a247ddb6346
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable:
   - first:
-      74: -4858311596016057860
-    second: Sphere|mainAction
-  - first:
-      74: -670248184027645434
-    second: Sphere|main|main|main|CINEMA_4D_Main|Layer0
-  - first:
-      74: -3100628101864396295
-    second: Sphere|SphereAction
-  - first:
-      74: -5902463312883453017
-    second: main|mainAction
-  - first:
-      74: -7241239837340057751
-    second: main|main|main|main|CINEMA_4D_Main|Layer0
-  - first:
-      74: 1127987788867060767
-    second: main|SphereAction
+      74: -623603649343465320
+    second: Scene
   externalObjects: {}
   materials:
     materialImportMode: 2

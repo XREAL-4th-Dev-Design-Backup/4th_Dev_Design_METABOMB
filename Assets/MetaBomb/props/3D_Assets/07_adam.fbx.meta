@@ -1,0 +1,672 @@
+fileFormatVersion: 2
+guid: 7166c710387804b19be3e35eb0c55d12
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: 8229494792837762599
+    second: Bip01|Adam_Reference|Take 001|BaseLayer
+  - first:
+      74: 3491661844200372335
+    second: Bip01|Adam_RigCables_Front_03|Take 001|BaseLayer
+  - first:
+      74: -1830133146231921700
+    second: Bip01|Adam_RigCables_Front_05|Take 001|BaseLayer
+  - first:
+      74: 2239696874403625651
+    second: Bip01|Adam_RigCables_Front_06|Take 001|BaseLayer
+  - first:
+      74: -8769023541972950549
+    second: Bip01|Adam_RigCables_Front_08|Take 001|BaseLayer
+  - first:
+      74: -3965786562347088258
+    second: Bip01|Adam_RigNeckRubber_Bones_27|Take 001|BaseLayer
+  - first:
+      74: 8996876661282030961
+    second: Bip01|Bip01|Take 001|BaseLayer
+  - first:
+      74: 6291435990033588846
+    second: Bip01|Bone005|Take 001|BaseLayer
+  - first:
+      74: -6630528372809205771
+    second: Bip01|Bone006|Take 001|BaseLayer
+  - first:
+      74: 6645786679490935727
+    second: Bip01|Bone007|Take 001|BaseLayer
+  - first:
+      74: -4430137941852352471
+    second: Bip01|Eye_L_Blend_00|Take 001|BaseLayer
+  - first:
+      74: -5397904454348992682
+    second: Bip01|Eye_L_Blend_01|Take 001|BaseLayer
+  - first:
+      74: -7300226594844015478
+    second: Bip01|Eye_L_Blend_02|Take 001|BaseLayer
+  - first:
+      74: -5311621318998707826
+    second: Bip01|Eye_L_Blend_03|Take 001|BaseLayer
+  - first:
+      74: 5001188099531868833
+    second: Bip01|Eye_L_Blend_04|Take 001|BaseLayer
+  - first:
+      74: -4607253001924763659
+    second: Bip01|Eye_L_Blend_05|Take 001|BaseLayer
+  - first:
+      74: -5161846891870622129
+    second: Bip01|Eye_L_Blend_Null_00|Take 001|BaseLayer
+  - first:
+      74: -2392369797472804384
+    second: Bip01|Eye_L_Blend_Null_01|Take 001|BaseLayer
+  - first:
+      74: -4768194628921388391
+    second: Bip01|Eye_L_Blend_Null_02|Take 001|BaseLayer
+  - first:
+      74: 2775768600992207315
+    second: Bip01|Eye_L_Blend_Null_03|Take 001|BaseLayer
+  - first:
+      74: 7794559096128819857
+    second: Bip01|Eye_L_Blend_Null_04|Take 001|BaseLayer
+  - first:
+      74: 2822850014849012934
+    second: Bip01|Eye_L_Blend_Null_05|Take 001|BaseLayer
+  - first:
+      74: 1366253076696726768
+    second: Bip01|Eye_L_BlendBase|Take 001|BaseLayer
+  - first:
+      74: 892810966320252178
+    second: Bip01|Eye_L_BlendRoot|Take 001|BaseLayer
+  - first:
+      74: -6670161170735413524
+    second: Bip01|Eye_L_BlendScrew_00|Take 001|BaseLayer
+  - first:
+      74: -5730414480528787824
+    second: Bip01|Eye_L_BlendScrew_01|Take 001|BaseLayer
+  - first:
+      74: 57830097565052171
+    second: Bip01|Eye_L_BlendScrew_02|Take 001|BaseLayer
+  - first:
+      74: 5170719773015754573
+    second: Bip01|Eye_L_BlendScrew_03|Take 001|BaseLayer
+  - first:
+      74: 4536302473296122710
+    second: Bip01|Eye_L_BlendScrew_04|Take 001|BaseLayer
+  - first:
+      74: -7986425339138106567
+    second: Bip01|Eye_L_BlendScrew_05|Take 001|BaseLayer
+  - first:
+      74: 222516366387891065
+    second: Bip01|Eye_L_EyelidSegment_00|Take 001|BaseLayer
+  - first:
+      74: -6076180300979377792
+    second: Bip01|Eye_L_EyelidSegment_01|Take 001|BaseLayer
+  - first:
+      74: -68309064939112247
+    second: Bip01|Eye_L_EyelidSegment_02|Take 001|BaseLayer
+  - first:
+      74: 3031372390664834340
+    second: Bip01|Eye_L_EyelidSegment_03|Take 001|BaseLayer
+  - first:
+      74: 6793863523689688521
+    second: Bip01|Eye_L_EyelidSegment_04|Take 001|BaseLayer
+  - first:
+      74: -3898274449533448851
+    second: Bip01|Eye_L_EyelidSegment_05|Take 001|BaseLayer
+  - first:
+      74: -7453706623151241349
+    second: Bip01|Eye_L_EyelidSegment_06|Take 001|BaseLayer
+  - first:
+      74: 3061129868719719793
+    second: Bip01|Eye_L_EyelidSegment_07|Take 001|BaseLayer
+  - first:
+      74: 6600510036303263277
+    second: Bip01|Eye_L_EyelidSegment_08|Take 001|BaseLayer
+  - first:
+      74: 2771624835262601037
+    second: Bip01|Eye_L_EyelidSegment_09|Take 001|BaseLayer
+  - first:
+      74: 8209088106098770211
+    second: Bip01|Eye_L_EyelidSegment_10|Take 001|BaseLayer
+  - first:
+      74: 4640499041018933406
+    second: Bip01|Eye_L_EyelidSegment_11|Take 001|BaseLayer
+  - first:
+      74: 9018766124788969158
+    second: Bip01|Eye_L_EyelidSegment_12|Take 001|BaseLayer
+  - first:
+      74: 4871260054068898222
+    second: Bip01|Eye_L_EyelidSegment_13|Take 001|BaseLayer
+  - first:
+      74: 571488348890512671
+    second: Bip01|Eye_L_EyelidSegment_14|Take 001|BaseLayer
+  - first:
+      74: -3513507641393902359
+    second: Bip01|Eye_L_EyelidSegment_15|Take 001|BaseLayer
+  - first:
+      74: 8719458946722723408
+    second: Bip01|Eye_L_EyelidsRig_00|Take 001|BaseLayer
+  - first:
+      74: 2831634758362682746
+    second: Bip01|Eye_L_EyelidsRig_01|Take 001|BaseLayer
+  - first:
+      74: 5046767147404379329
+    second: Bip01|Eye_L_EyelidsRig_02|Take 001|BaseLayer
+  - first:
+      74: 1228491902587762785
+    second: Bip01|Eye_L_EyelidsRig_03|Take 001|BaseLayer
+  - first:
+      74: -7466258497224609596
+    second: Bip01|Eye_L_EyelidsRig_04|Take 001|BaseLayer
+  - first:
+      74: -1462201274635971259
+    second: Bip01|Eye_L_EyelidsRig_05|Take 001|BaseLayer
+  - first:
+      74: 7104723294082993208
+    second: Bip01|Eye_L_EyelidsRig_12|Take 001|BaseLayer
+  - first:
+      74: -5951223938981467287
+    second: Bip01|Eye_L_EyelidsRig_13|Take 001|BaseLayer
+  - first:
+      74: -8142454172864429326
+    second: Bip01|Eye_L_EyelidsRig_14|Take 001|BaseLayer
+  - first:
+      74: 9182207145689950683
+    second: Bip01|Eye_L_EyelidsRig_15|Take 001|BaseLayer
+  - first:
+      74: -4122376658373206734
+    second: Bip01|Eye_L_EyelidsRig_16|Take 001|BaseLayer
+  - first:
+      74: 5361214076775278148
+    second: Bip01|Eye_L_EyelidsRig_17|Take 001|BaseLayer
+  - first:
+      74: 4724417277251742729
+    second: Bip01|Eye_L_Lens|Take 001|BaseLayer
+  - first:
+      74: 8270785196235309396
+    second: Bip01|Eye_L_LowerEyelid|Take 001|BaseLayer
+  - first:
+      74: 2278561013961752528
+    second: Bip01|Eye_L_Null|Take 001|BaseLayer
+  - first:
+      74: 7716669571100993592
+    second: Bip01|Eye_L_Sclera|Take 001|BaseLayer
+  - first:
+      74: -6511156110048007701
+    second: Bip01|Eye_L_Side1|Take 001|BaseLayer
+  - first:
+      74: 3802864520608998586
+    second: Bip01|Eye_L_Side2|Take 001|BaseLayer
+  - first:
+      74: -4581791714281607101
+    second: Bip01|Eye_L_UpperEyelid|Take 001|BaseLayer
+  - first:
+      74: 5205196938229668850
+    second: Bip01|Eye_R_Blend_00|Take 001|BaseLayer
+  - first:
+      74: 6567625724108582419
+    second: Bip01|Eye_R_Blend_01|Take 001|BaseLayer
+  - first:
+      74: -4475250827758528551
+    second: Bip01|Eye_R_Blend_02|Take 001|BaseLayer
+  - first:
+      74: 3937395225502553822
+    second: Bip01|Eye_R_Blend_03|Take 001|BaseLayer
+  - first:
+      74: -446032596129439825
+    second: Bip01|Eye_R_Blend_04|Take 001|BaseLayer
+  - first:
+      74: -7996775293764396816
+    second: Bip01|Eye_R_Blend_05|Take 001|BaseLayer
+  - first:
+      74: -6669107364832644064
+    second: Bip01|Eye_R_Blend_Null_00|Take 001|BaseLayer
+  - first:
+      74: -2279559954408825511
+    second: Bip01|Eye_R_Blend_Null_01|Take 001|BaseLayer
+  - first:
+      74: -7290991039768825884
+    second: Bip01|Eye_R_Blend_Null_02|Take 001|BaseLayer
+  - first:
+      74: 5019333114976405267
+    second: Bip01|Eye_R_Blend_Null_03|Take 001|BaseLayer
+  - first:
+      74: -1817123174171740635
+    second: Bip01|Eye_R_Blend_Null_04|Take 001|BaseLayer
+  - first:
+      74: -7529018723410430345
+    second: Bip01|Eye_R_Blend_Null_05|Take 001|BaseLayer
+  - first:
+      74: 3501229974641196305
+    second: Bip01|Eye_R_BlendBase|Take 001|BaseLayer
+  - first:
+      74: 5329453854328850137
+    second: Bip01|Eye_R_BlendRoot|Take 001|BaseLayer
+  - first:
+      74: 1640295348625726747
+    second: Bip01|Eye_R_BlendScrew_00|Take 001|BaseLayer
+  - first:
+      74: -5725810982093540507
+    second: Bip01|Eye_R_BlendScrew_01|Take 001|BaseLayer
+  - first:
+      74: -6711046045647158233
+    second: Bip01|Eye_R_BlendScrew_02|Take 001|BaseLayer
+  - first:
+      74: 2056996490832514946
+    second: Bip01|Eye_R_BlendScrew_03|Take 001|BaseLayer
+  - first:
+      74: 1885341604965885546
+    second: Bip01|Eye_R_BlendScrew_04|Take 001|BaseLayer
+  - first:
+      74: 7334586240291863951
+    second: Bip01|Eye_R_BlendScrew_05|Take 001|BaseLayer
+  - first:
+      74: -4814265450711199377
+    second: Bip01|Eye_R_EyelidSegment_00|Take 001|BaseLayer
+  - first:
+      74: -3757718205352472047
+    second: Bip01|Eye_R_EyelidSegment_01|Take 001|BaseLayer
+  - first:
+      74: 2784118580953067427
+    second: Bip01|Eye_R_EyelidSegment_02|Take 001|BaseLayer
+  - first:
+      74: -8210996398283075118
+    second: Bip01|Eye_R_EyelidSegment_03|Take 001|BaseLayer
+  - first:
+      74: 5463330147235282574
+    second: Bip01|Eye_R_EyelidSegment_04|Take 001|BaseLayer
+  - first:
+      74: -7342848771104869282
+    second: Bip01|Eye_R_EyelidSegment_05|Take 001|BaseLayer
+  - first:
+      74: 8320669594807080191
+    second: Bip01|Eye_R_EyelidSegment_06|Take 001|BaseLayer
+  - first:
+      74: 3895917552156599436
+    second: Bip01|Eye_R_EyelidSegment_07|Take 001|BaseLayer
+  - first:
+      74: -2566217172790033412
+    second: Bip01|Eye_R_EyelidSegment_08|Take 001|BaseLayer
+  - first:
+      74: 7481729951684708924
+    second: Bip01|Eye_R_EyelidSegment_09|Take 001|BaseLayer
+  - first:
+      74: -6309927157753121434
+    second: Bip01|Eye_R_EyelidSegment_10|Take 001|BaseLayer
+  - first:
+      74: 701600227544569019
+    second: Bip01|Eye_R_EyelidSegment_11|Take 001|BaseLayer
+  - first:
+      74: -8378567776006292179
+    second: Bip01|Eye_R_EyelidSegment_12|Take 001|BaseLayer
+  - first:
+      74: 3154229164370565362
+    second: Bip01|Eye_R_EyelidSegment_13|Take 001|BaseLayer
+  - first:
+      74: 7222303026546341802
+    second: Bip01|Eye_R_EyelidSegment_14|Take 001|BaseLayer
+  - first:
+      74: 792860472003244642
+    second: Bip01|Eye_R_EyelidSegment_15|Take 001|BaseLayer
+  - first:
+      74: -2159132360690070106
+    second: Bip01|Eye_R_EyelidsRig_00|Take 001|BaseLayer
+  - first:
+      74: -3214154810433880740
+    second: Bip01|Eye_R_EyelidsRig_01|Take 001|BaseLayer
+  - first:
+      74: -1451269761760137128
+    second: Bip01|Eye_R_EyelidsRig_02|Take 001|BaseLayer
+  - first:
+      74: 4921700302272630093
+    second: Bip01|Eye_R_EyelidsRig_03|Take 001|BaseLayer
+  - first:
+      74: 3543962956461721669
+    second: Bip01|Eye_R_EyelidsRig_04|Take 001|BaseLayer
+  - first:
+      74: 4704930854167734477
+    second: Bip01|Eye_R_EyelidsRig_05|Take 001|BaseLayer
+  - first:
+      74: -4240377136451035701
+    second: Bip01|Eye_R_EyelidsRig_12|Take 001|BaseLayer
+  - first:
+      74: 2391867861395053855
+    second: Bip01|Eye_R_EyelidsRig_13|Take 001|BaseLayer
+  - first:
+      74: -3885803944343435935
+    second: Bip01|Eye_R_EyelidsRig_14|Take 001|BaseLayer
+  - first:
+      74: 1056394584222844369
+    second: Bip01|Eye_R_EyelidsRig_15|Take 001|BaseLayer
+  - first:
+      74: -4105141696045631658
+    second: Bip01|Eye_R_EyelidsRig_16|Take 001|BaseLayer
+  - first:
+      74: 354792311046770100
+    second: Bip01|Eye_R_EyelidsRig_17|Take 001|BaseLayer
+  - first:
+      74: 8751044214013759738
+    second: Bip01|Eye_R_Lens|Take 001|BaseLayer
+  - first:
+      74: -6893765118902500166
+    second: Bip01|Eye_R_LowerEyelid|Take 001|BaseLayer
+  - first:
+      74: 2820392215819128907
+    second: Bip01|Eye_R_Null|Take 001|BaseLayer
+  - first:
+      74: -4440502453382580581
+    second: Bip01|Eye_R_Sclera|Take 001|BaseLayer
+  - first:
+      74: -3518890879785426896
+    second: Bip01|Eye_R_Side1|Take 001|BaseLayer
+  - first:
+      74: 954943782406622646
+    second: Bip01|Eye_R_Side2|Take 001|BaseLayer
+  - first:
+      74: -7266324941806465817
+    second: Bip01|Eye_R_UpperEyelid|Take 001|BaseLayer
+  - first:
+      74: 8718601969741730602
+    second: Bip01|Rig_BellyStretchyL_00|Take 001|BaseLayer
+  - first:
+      74: 5371775535988450542
+    second: Bip01|Rig_BellyStretchyL_012|Take 001|BaseLayer
+  - first:
+      74: -6443426718191561159
+    second: Bip01|Rig_BellyStretchyL_013|Take 001|BaseLayer
+  - first:
+      74: -345271556008239145
+    second: Bip01|Rig_BellyStretchyL_014|Take 001|BaseLayer
+  - first:
+      74: -1985165310546446869
+    second: Bip01|Rig_BellyStretchyL_015|Take 001|BaseLayer
+  - first:
+      74: -1269889431194725795
+    second: Bip01|Rig_BellyStretchyL_016|Take 001|BaseLayer
+  - first:
+      74: 888396405683883726
+    second: Bip01|Rig_BellyStretchyL_017|Take 001|BaseLayer
+  - first:
+      74: 2488285102411704871
+    second: Bip01|Rig_BellyStretchyL_018|Take 001|BaseLayer
+  - first:
+      74: 6203466770996512693
+    second: Bip01|Rig_BellyStretchyL_019|Take 001|BaseLayer
+  - first:
+      74: 2109916551171540574
+    second: Bip01|Rig_BellyStretchyL_01|Take 001|BaseLayer
+  - first:
+      74: 6286597566853468499
+    second: Bip01|Rig_BellyStretchyL_020|Take 001|BaseLayer
+  - first:
+      74: 6535200020377681983
+    second: Bip01|Rig_BellyStretchyL_021|Take 001|BaseLayer
+  - first:
+      74: 7152660308813851461
+    second: Bip01|Rig_BellyStretchyL_022|Take 001|BaseLayer
+  - first:
+      74: 7492501399742817444
+    second: Bip01|Rig_BellyStretchyL_023|Take 001|BaseLayer
+  - first:
+      74: 8766372742581208061
+    second: Bip01|Rig_BellyStretchyL_024|Take 001|BaseLayer
+  - first:
+      74: -7399985524331687273
+    second: Bip01|Rig_BellyStretchyL_025|Take 001|BaseLayer
+  - first:
+      74: 1241591990208177192
+    second: Bip01|Rig_BellyStretchyL_026|Take 001|BaseLayer
+  - first:
+      74: -2655677986814684495
+    second: Bip01|Rig_BellyStretchyL_027|Take 001|BaseLayer
+  - first:
+      74: 919863000716056969
+    second: Bip01|Rig_BellyStretchyL_028|Take 001|BaseLayer
+  - first:
+      74: 6408907318944566297
+    second: Bip01|Rig_BellyStretchyL_029|Take 001|BaseLayer
+  - first:
+      74: 2027814167020767311
+    second: Bip01|Rig_BellyStretchyL_02|Take 001|BaseLayer
+  - first:
+      74: 3815035363744011095
+    second: Bip01|Rig_BellyStretchyL_030|Take 001|BaseLayer
+  - first:
+      74: -8386516621261381796
+    second: Bip01|Rig_BellyStretchyL_031|Take 001|BaseLayer
+  - first:
+      74: -3244882896188049259
+    second: Bip01|Rig_BellyStretchyL_03|Take 001|BaseLayer
+  - first:
+      74: 4238028073643478418
+    second: Bip01|Rig_BellyStretchyL_04|Take 001|BaseLayer
+  - first:
+      74: 7384878504533389050
+    second: Bip01|Rig_BellyStretchyL_05|Take 001|BaseLayer
+  - first:
+      74: -2219938375587663057
+    second: Bip01|Rig_BellyStretchyL_06|Take 001|BaseLayer
+  - first:
+      74: -7422420878975807747
+    second: Bip01|Rig_BellyStretchyL_07|Take 001|BaseLayer
+  - first:
+      74: -5839503437109820685
+    second: Bip01|Rig_BellyStretchyL_08|Take 001|BaseLayer
+  - first:
+      74: -7615418944828298546
+    second: Bip01|Rig_BellyStretchyL_09|Take 001|BaseLayer
+  - first:
+      74: -9026721101145382046
+    second: Bip01|Rig_BellyStretchyL_10|Take 001|BaseLayer
+  - first:
+      74: 646779561774879589
+    second: Bip01|Rig_BellyStretchyL_11|Take 001|BaseLayer
+  - first:
+      74: -7778607294705662838
+    second: Bip01|Rig_BellyStretchyR_00|Take 001|BaseLayer
+  - first:
+      74: 4286795286002728364
+    second: Bip01|Rig_BellyStretchyR_01|Take 001|BaseLayer
+  - first:
+      74: 2041662220027261013
+    second: Bip01|Rig_BellyStretchyR_02|Take 001|BaseLayer
+  - first:
+      74: 1558044512918245273
+    second: Bip01|Rig_BellyStretchyR_03|Take 001|BaseLayer
+  - first:
+      74: 1345993972945044754
+    second: Bip01|Rig_BellyStretchyR_04|Take 001|BaseLayer
+  - first:
+      74: -569892294653667795
+    second: Bip01|Rig_BellyStretchyR_05|Take 001|BaseLayer
+  - first:
+      74: 1921656332073858308
+    second: Bip01|Rig_BellyStretchyR_06|Take 001|BaseLayer
+  - first:
+      74: -6924267187583546954
+    second: Bip01|Rig_BellyStretchyR_07|Take 001|BaseLayer
+  - first:
+      74: 2449256953010624083
+    second: Bip01|Rig_BellyStretchyR_08|Take 001|BaseLayer
+  - first:
+      74: -1726817239786932731
+    second: Bip01|Rig_BellyStretchyR_09|Take 001|BaseLayer
+  - first:
+      74: -7466190859316908130
+    second: Bip01|Rig_BellyStretchyR_10|Take 001|BaseLayer
+  - first:
+      74: 8713290978780540633
+    second: Bip01|Rig_BellyStretchyR_11|Take 001|BaseLayer
+  - first:
+      74: -1529092519184009831
+    second: Bip01|Rig_L Clavicle_Constraint|Take 001|BaseLayer
+  - first:
+      74: 7166280488020571877
+    second: Bip01|Rig_L Clavicle_LookAt|Take 001|BaseLayer
+  - first:
+      74: 2273763306575823138
+    second: Bip01|Rig_L Forearm_01|Take 001|BaseLayer
+  - first:
+      74: -4519621748426052580
+    second: Bip01|Rig_L UpperArm_Ring_Upnode|Take 001|BaseLayer
+  - first:
+      74: 42417193525572934
+    second: Bip01|Rig_L UpperArm_Ring|Take 001|BaseLayer
+  - first:
+      74: 8249923752565158543
+    second: Bip01|Rig_L UpperArm_Upnode|Take 001|BaseLayer
+  - first:
+      74: -8653633582243109532
+    second: Bip01|Rig_L_Scapula_LookAt1|Take 001|BaseLayer
+  - first:
+      74: -699544297399657511
+    second: Bip01|Rig_L_Scapula_LookAt2|Take 001|BaseLayer
+  - first:
+      74: -4998681787555617130
+    second: Bip01|Rig_L_Scapula_LookAtUpnode|Take 001|BaseLayer
+  - first:
+      74: 1464437178897729709
+    second: Bip01|Rig_L_Scapula_pos|Take 001|BaseLayer
+  - first:
+      74: 59274683995874342
+    second: Bip01|Rig_R Clavicle_Constraint|Take 001|BaseLayer
+  - first:
+      74: -8986599072984416052
+    second: Bip01|Rig_R Clavicle_LookAt|Take 001|BaseLayer
+  - first:
+      74: -1865074201075649974
+    second: Bip01|Rig_R Forearm_01|Take 001|BaseLayer
+  - first:
+      74: 2077442470775142310
+    second: Bip01|Rig_R UpperArm_Ring_Upnode|Take 001|BaseLayer
+  - first:
+      74: 914081651849359625
+    second: Bip01|Rig_R UpperArm_Ring|Take 001|BaseLayer
+  - first:
+      74: -347674529019712533
+    second: Bip01|Rig_R UpperArm_Upnode|Take 001|BaseLayer
+  - first:
+      74: -1503027827210269291
+    second: Bip01|Rig_R_Scapula_LookAt1|Take 001|BaseLayer
+  - first:
+      74: -3856170986970380376
+    second: Bip01|Rig_R_Scapula_LookAt2|Take 001|BaseLayer
+  - first:
+      74: -437229035757512830
+    second: Bip01|Rig_R_Scapula_LookAtUpnode|Take 001|BaseLayer
+  - first:
+      74: 4988138249756818569
+    second: Bip01|Rig_R_Scapula_pos|Take 001|BaseLayer
+  - first:
+      74: -3946026603005272478
+    second: Bip01|Rig_Trapezius_L_Rail|Take 001|BaseLayer
+  - first:
+      74: 89096452137629804
+    second: Bip01|Rig_Trapezius_L_Slider002|Take 001|BaseLayer
+  - first:
+      74: -576098760278846512
+    second: Bip01|Rig_Trapezius_L_Slider|Take 001|BaseLayer
+  - first:
+      74: 1598793254741050542
+    second: Bip01|Rig_Trapezius_R_Rail|Take 001|BaseLayer
+  - first:
+      74: -623603649343465320
+    second: Scene
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
