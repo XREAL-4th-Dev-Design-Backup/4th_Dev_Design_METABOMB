@@ -6,16 +6,16 @@ public class Param : MonoBehaviour
 {
     public int _band;
     public float _startScale, _scaleMultplier;
-    public bool _useBuffer;
+    private bool _useBuffer = true;
     Material _material;
 
 
 
 
-    public float threshold=0;
-    public Transform targetsky;
-    public GameObject crystal;
-    public float speed=1;
+    //public float threshold=0;
+    //public Transform targetsky;
+    //public GameObject crystal;
+    //public float speed=1;
 
 
 
