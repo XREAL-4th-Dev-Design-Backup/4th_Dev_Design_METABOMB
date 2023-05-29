@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.0754717, g: 0.040868636, b: 0.040868636, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1.04
+  m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 95ebf50189f880e4aa17c4fdba9007aa, type: 2}
@@ -503,6 +503,10 @@ PrefabInstance:
     - target: {fileID: 3733464828163515504, guid: 7b435083286a53442aefc61946780d29, type: 3}
       propertyPath: _interactors.Array.data[1]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4253872145481271337, guid: 7b435083286a53442aefc61946780d29, type: 3}
+      propertyPath: useRecommendedMSAALevel
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4253872145492140525, guid: 7b435083286a53442aefc61946780d29, type: 3}
       propertyPath: m_LocalPosition.y
