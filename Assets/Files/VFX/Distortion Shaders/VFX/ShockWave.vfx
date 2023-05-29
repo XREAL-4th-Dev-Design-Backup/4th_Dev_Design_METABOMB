@@ -19,7 +19,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 338
     y: -190
-    width: 1028
+    width: 1029
     height: 1390
 --- !u!114 &114350483966674976
 MonoBehaviour:
@@ -77,7 +77,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"47f91f63ecd4ba540a01258b88256670","type":3}}'
+      m_SerializableObject: 
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -1747,7 +1747,7 @@ MonoBehaviour:
       inputSlot: {fileID: 8926484042661614762}
     position: {x: 613, y: 899}
     expandedSlots: []
-    expanded: 0
+    expanded: 1
 --- !u!114 &8926484042661614769
 MonoBehaviour:
   m_ObjectHideFlags: 0
