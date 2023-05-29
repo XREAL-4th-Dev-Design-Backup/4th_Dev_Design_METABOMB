@@ -13,11 +13,14 @@ public class CrystalCtrl : MonoBehaviour
     private bool isGround = true;
     private bool isCenter = false;
     private float totalTime = 0f;
-    
-    Gameobject cylindes = transform.find("Cylinders").gameObject;
-    Gameobject cylinder[8] = cylinders.GetAllChilds();
 
 
+    public float destroyTime = 3.0f; //파괴될 시간
+    private float fTickTime; //초 세기
+    int i = 0;
+   
+    public GameObject crystalEffect; //크리스탈이 공중에 있는동안 생성되는 이펙트
+    public GameObject crystalExplosionEffect;//플레이어가 맞추지않으면 혼자서 터질 때 발생하는 이펙트
 
 
 
@@ -26,11 +29,48 @@ public class CrystalCtrl : MonoBehaviour
         ballRB2D = GetComponent<Rigidbody>();
         StartCoroutine(ShotBall());
         //ballRB2D.AddForce(Vector3.up * 10, ForceMode.Impulse);
+
+        GameObject crysEffect = Instantiate(crystalEffect, this.transform.position, this.transform.rotation); //크리스탈이랑 함께 있는 effect가 크리스탈 자식으로 생성
+        crysEffect.transform.SetParent(this.transform);
     }
     void Update()
     {
+        // //크리스탈 제거 
+        fTickTime += Time.deltaTime;
+        
+    
+       if ( fTickTime >= destroyTime)
+       {
+
+        i=i+1;
+
+        if(i==1){
+
+            DestroyCrystal();// destroyTime초 뒤에 실행
+            //print(fTickTime);
+
+            print(i);
+
+        }
+            
+       }    
 
     }
+
+    public void DestroyCrystal(){
+
+        //Destroy(this, destroyTime); //오브젝트 파괴
+
+        GameObject desEffect = Instantiate(crystalExplosionEffect, this.transform.position, this.transform.rotation); //물체가 혼자 터질 때 effect 발생
+        desEffect.transform.SetParent(this.transform);
+
+        //Destroy(desEffect,1.0f); //오브젝트 파괴
+
+        Destroy(this.gameObject,2); //오브젝트 파괴
+
+    }
+
+
     IEnumerator ShotBall()
     {
         //Debug.Log("=== Simulation ===");

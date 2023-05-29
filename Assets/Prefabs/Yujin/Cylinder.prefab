@@ -140,7 +140,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4656329019120666376}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a471455758cfa4041a4527c423014b4d, type: 3}
   m_Name: 
@@ -148,11 +148,6 @@ MonoBehaviour:
   _band: 0
   _startScale: 2
   _scaleMultplier: 0.1
-  _useBuffer: 1
-  threshold: 0
-  targetsky: {fileID: 0}
-  crystal: {fileID: 5144431861691103086, guid: 0164c133f3386a54d8e14a476ae8c83d, type: 3}
-  speed: 0
 --- !u!114 &9192384424247189167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,6 +161,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   crystalPrefab: {fileID: 6176500388640026800, guid: 9ec11ea2d2837704697505520416e62d, type: 3}
+  crystalInstantiateEffect: {fileID: 0}
+  destroyTime: 3
 --- !u!1001 &8020624915034871939
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -227,6 +224,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b65e761128541bc4aad2e7f0c7186ea7, type: 3}
+--- !u!1 &562557590300668133 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7530125198165485670, guid: b65e761128541bc4aad2e7f0c7186ea7, type: 3}
+  m_PrefabInstance: {fileID: 8020624915034871939}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7827263549410543005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562557590300668133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a471455758cfa4041a4527c423014b4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _band: 0
+  _startScale: 4
+  _scaleMultplier: 0.05
 --- !u!4 &4077368165302215430 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6330727794453920645, guid: b65e761128541bc4aad2e7f0c7186ea7, type: 3}

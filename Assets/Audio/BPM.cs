@@ -14,9 +14,15 @@ using UnityEngine;
 
 */
 
+
 public class BPM : MonoBehaviour
 {
+    
+    
+    
+
      //ScaleCube moveNote;
+     /*
     InstantiateCrystal insCrystal1;
     InstantiateCrystal insCrystal2;
     InstantiateCrystal insCrystal3;
@@ -35,6 +41,13 @@ public class BPM : MonoBehaviour
     public GameObject cylinder6;
     public GameObject cylinder7;
     public GameObject cylinder8;
+    */
+
+
+    public GameObject[] cylinder;
+    public InstantiateCrystal[] insCrystal = new InstantiateCrystal[8];
+    int index = 0;
+    
 
     //public List<Transform> cylinder;
 
@@ -50,7 +63,14 @@ public class BPM : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        cylinder = GameObject.FindGameObjectsWithTag("cylinder");
+        for(int i=0; i<8; i++){
+            insCrystal[i] = cylinder[i].GetComponent<InstantiateCrystal>();
+        }
+        
+
         //moveNote = GameObject.Find("Cube").GetComponent<ScaleCube>();
+        /*
         insCrystal1 = cylinder1.GetComponent<InstantiateCrystal>();
         insCrystal2 = cylinder2.GetComponent<InstantiateCrystal>();
         insCrystal3 = cylinder3.GetComponent<InstantiateCrystal>();
@@ -60,6 +80,7 @@ public class BPM : MonoBehaviour
         insCrystal7 = cylinder7.GetComponent<InstantiateCrystal>();
         insCrystal8 = cylinder8.GetComponent<InstantiateCrystal>();
 
+        */
     }
 
     // Update is called once per frame
@@ -71,7 +92,8 @@ public class BPM : MonoBehaviour
 
         if (nextTime > tikTime)
         {
-            StartCoroutine(PlayTikTime(tikTime));
+            index = (index+1)%8;
+            StartCoroutine(PlayTikTime(tikTime, index));
             nextTime = 0;
         }
 
@@ -79,9 +101,21 @@ public class BPM : MonoBehaviour
         //Debug.Log(temp);
     }
 
-    IEnumerator PlayTikTime(float tikTime)
+    IEnumerator PlayTikTime(float tikTime, int index)
     {
         Debug.Log(nextTime);
+
+        
+        insCrystal[index].InsCrystal();
+        insCrystal[index+1].InsCrystal();
+
+        /*
+        for(int i=0; i<8; i++){
+            insCrystal[i].InsCrystal();
+        }
+        */
+
+        /*
         insCrystal1.InsCrystal();
         insCrystal2.InsCrystal();
         insCrystal3.InsCrystal();
@@ -90,6 +124,7 @@ public class BPM : MonoBehaviour
         insCrystal6.InsCrystal();
         insCrystal7.InsCrystal();
         insCrystal8.InsCrystal();
+        */
         //실린더에 붙어 있는 InstantiateCrystal 스크립트의 insCrystal 함수 실행
         yield return new WaitForFixedUpdate();
     }
