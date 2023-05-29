@@ -115,11 +115,6 @@ MonoBehaviour:
   _band: 0
   _startScale: 2
   _scaleMultplier: 0.1
-  _useBuffer: 1
-  threshold: 0
-  targetsky: {fileID: 0}
-  crystal: {fileID: 0}
-  speed: 0
 --- !u!114 &7626451015783225924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,3 +128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   crystalPrefab: {fileID: 4063841269085348731, guid: 9245caf56388402409846127a36ce590, type: 3}
+  crystalExplosionEffect: {fileID: 100002, guid: f7efb0d9df2264096af57128df85dddb, type: 3}
+  crystalInstantiateEffect: {fileID: 100002, guid: f7efb0d9df2264096af57128df85dddb, type: 3}
+  crystalEffect: {fileID: 1154897201793896, guid: 129514dafc9d9694abed61b5beaae1c5, type: 3}
+  destroyTime: 3
