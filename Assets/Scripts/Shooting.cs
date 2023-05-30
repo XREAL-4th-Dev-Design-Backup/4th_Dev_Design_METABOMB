@@ -29,7 +29,8 @@ public class Shooting : MonoBehaviour
             {
                 FireposFx();
                 TriggerShoot();
-                OVRInput.SetControllerVibration(0.1f, 0.1f, OVRInput.Controller.RTouch);    //진동
+                StartCoroutine(VibrateControll(1, 0.5f, 0.2f, OVRInput.Controller.RTouch));  //진동 1초
+                //OVRInput.SetControllerVibration(0.1f, 0.1f, OVRInput.Controller.RTouch);    //진동 2초
             }
 
             //if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.LTouch) && leftIsGrabbed)    //왼손, grabbed 구별
@@ -37,10 +38,18 @@ public class Shooting : MonoBehaviour
             {
                 FireposFx();
                 TriggerShoot();
-                OVRInput.SetControllerVibration(0.1f, 0.1f, OVRInput.Controller.LTouch);    //진동
+                StartCoroutine(VibrateControll(1, 0.5f, 0.2f, OVRInput.Controller.LTouch));  //진동 1초
+                //OVRInput.SetControllerVibration(0.1f, 0.1f, OVRInput.Controller.LTouch);    //진동 2s
             }
         }
 
+    }
+
+    protected IEnumerator VibrateControll(float waitTime, float frequency, float amplitude, OVRInput.Controller controller)
+    {
+        OVRInput.SetControllerVibration(frequency, amplitude, controller);
+        yield return new WaitForSeconds(waitTime);
+        OVRInput.SetControllerVibration(0, 0, controller);
     }
 
     public void TriggerShoot()

@@ -13,7 +13,7 @@ public class StickPresencePhysics : MonoBehaviour
     }
 
     // Update is called once per frame
-    private void FixedUpdate()
+    void FixedUpdate()
     {
         //position
         rb.velocity = (target.position - transform.position) / Time.fixedDeltaTime;
