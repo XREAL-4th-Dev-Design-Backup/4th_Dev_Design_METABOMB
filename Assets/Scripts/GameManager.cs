@@ -14,15 +14,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        metasphere = Instantiate(MetaSphere);
-        supernova = Instantiate(Supernova);
-        metabombtp = Instantiate(MetabombTP);
-        metabomb = Instantiate(MetaBomb);
-        thunder = Instantiate(Thunder);
-        metabombsurface = Instantiate(MetabombSurface);
-        magicshield = Instantiate(MagicShield);
-        magicsphere = Instantiate(MagicSphere);
-        prev = Instantiate(guitarPrefab);
+        StartCoroutine(GenerateMetaBomb());
     }
 
     // Update is called once per frame
@@ -41,15 +33,34 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(waitTime);
         OVRInput.SetControllerVibration(0, 0, controller);
     }
+
+    protected IEnumerator GenerateMetaBomb()
+    {
+        yield return new WaitForSeconds(3.0f);
+        metasphere = Instantiate(MetaSphere);
+        supernova = Instantiate(Supernova);
+        metabombtp = Instantiate(MetabombTP);
+        metabomb = Instantiate(MetaBomb);
+        thunder = Instantiate(Thunder);
+        metabombsurface = Instantiate(MetabombSurface);
+        magicshield = Instantiate(MagicShield);
+        magicsphere = Instantiate(MagicSphere);
+        prev = Instantiate(guitarPrefab);
+    }
     protected IEnumerator GeneratePortal()
     {
+        
         Destroy(prev);
         electrohit = Instantiate(ElectroHitPrefab);
         Destroy(electrohit, 1.0f);
-        yield return new WaitForSeconds(0.5f);
-        Destroy(supernova);
-        Destroy(metabombtp);
-        Destroy(metabomb);
+        shockwave = Instantiate(ShockWave);
+
+        yield return new WaitForSeconds(1.0f);
+
+        
+        supernova.GetComponent<Animator>().SetTrigger("Reduction");
+        metabombtp.GetComponent<Animator>().SetTrigger("Reduction");
+        metabomb.GetComponent<Animator>().SetTrigger("Reduction");
         Destroy(thunder);
         Destroy(metabombsurface);
         Destroy(magicshield);
@@ -57,11 +68,10 @@ public class GameManager : MonoBehaviour
         Destroy(metasphere);
 
         yield return new WaitForSeconds(1.0f);
-        
-        supernova = Instantiate(Supernova);
-        metabombtp = Instantiate(MetabombTP);
+
+        supernova.GetComponent<Animator>().SetTrigger("Expension");
+        metabombtp.GetComponent<Animator>().SetTrigger("Expension");
         portal = Instantiate(portalPrefab);
-        shockwave = Instantiate(ShockWave);
         glowflare = Instantiate(GlowFlare);
 
         yield return new WaitForSeconds(1.0f);

@@ -6,6 +6,7 @@ public class Guitar : MonoBehaviour
 {
     private bool leftIsGrabbed, rightIsGrabbed;
     GameObject gameManager;
+    public UIControl uIControl;
 
     void Start()
     {
