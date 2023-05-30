@@ -1,14 +1,15 @@
 fileFormatVersion: 2
-guid: e604830d0331e35438201eaef3c70c22
+guid: b6a4b3507837db14faa9744d1b5c953a
 ModelImporter:
   serializedVersion: 21202
-  internalIDToNameTable: []
-  externalObjects:
+  internalIDToNameTable:
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: defaultMat
-    second: {fileID: 2100000, guid: 260c943c0d51d114bbfab3c6f32daa0e, type: 2}
+      74: -7507131615141896801
+    second: Armature|toGun
+  - first:
+      74: -4557604074173764179
+    second: Armature|toStick
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -102,7 +103,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
