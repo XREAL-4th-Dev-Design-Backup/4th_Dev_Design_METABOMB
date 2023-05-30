@@ -9,6 +9,10 @@ public class Teleport : MonoBehaviour
     public List<Transform> points;
     public int randomIdx;
 
+    //public Transform startPos;
+
+    public Vector3 startPos;
+
 
 
     // Start is called before the first frame update
@@ -17,6 +21,10 @@ public class Teleport : MonoBehaviour
         //defaultTransform.transform.position = gameObject.transform.position;
         //abc = this.gameObject.transform.position;
         //abc.transform.Translate(this.transform.position);
+
+        //startPos = gameObject.GetComponent<Transform>();
+        startPos = this.gameObject.transform.position;
+
 
         GameObject group = GameObject.Find("Points");
         if (group != null)
@@ -31,6 +39,9 @@ public class Teleport : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Input.GetKeyDown(KeyCode.Space)
+        //Input.GetKey(KeyCode.W)
+        //(OVRInput.GetDown(OVRInput.Button.Three))|| (OVRInput.GetDown(OVRInput.Button.Four))
         if ((OVRInput.GetDown(OVRInput.Button.Three))|| (OVRInput.GetDown(OVRInput.Button.Four)))
         {
             
@@ -40,6 +51,13 @@ public class Teleport : MonoBehaviour
 
             gameObject.transform.position = points[randomIdx].transform.position;
 
+        }
+
+        //(OVRInput.GetDown(OVRInput.Button.One))|| (OVRInput.GetDown(OVRInput.Button.Two))
+
+        if((OVRInput.GetDown(OVRInput.Button.One))|| (OVRInput.GetDown(OVRInput.Button.Two))){
+            //gameObject.transform.position=startPos.transform.position;
+            gameObject.transform.position = startPos;
         }
 
     }
