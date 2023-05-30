@@ -16,10 +16,10 @@ public class ClapAction : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "bong" && !isGunSetting)       //normal interaction일때만 작동
+        if (!isGunSetting)       //normal interaction일때만 작동
         {
             StartCoroutine(VibrateControll(0.1f, 0.5f, 0.5f, OVRInput.Controller.LTouch));
-            StartCoroutine(VibrateControll(0.1f, 0.3f, 0.2f, OVRInput.Controller.RTouch));
+            StartCoroutine(VibrateControll(0.1f, 0.5f, 0.2f, OVRInput.Controller.RTouch));
         }
     }
     protected IEnumerator VibrateControll(float waitTime, float frequency, float amplitude, OVRInput.Controller controller)

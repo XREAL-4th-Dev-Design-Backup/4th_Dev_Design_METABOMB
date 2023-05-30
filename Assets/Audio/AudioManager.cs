@@ -47,18 +47,24 @@ public class AudioManager : MonoBehaviour
 
                 if (soundSource.clip==intro_music[1]|| soundSource.clip==intro_music[3])
                 {
+                    //응원봉 -> 총 전환
+                    GameObject.Find("04_Stickv7_left").GetComponent<SwitchAnimation>().onHighlight();
+                    GameObject.Find("04_Stickv7_right").GetComponent<SwitchAnimation>().onHighlight();
                     print("하이라이트구간");
                     gameObject.GetComponent<BPM>().enabled = true;
                     cylinders.SetActive(true);
                 }
+                //총 -> 응원봉 전환
+                GameObject.Find("04_Stickv7_left").GetComponent<SwitchAnimation>().offHighlight();
+                GameObject.Find("04_Stickv7_right").GetComponent<SwitchAnimation>().offHighlight();
 
-                
-                
 
-                
-                
 
-                if(i== intro_music.Length)
+
+
+
+
+                if (i== intro_music.Length)
                 {
                     break;
                 }

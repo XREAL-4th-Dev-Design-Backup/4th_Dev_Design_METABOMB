@@ -16,7 +16,14 @@ public class SwitchAnimation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        //for test (Debuging)
+        if (OVRInput.GetDown(OVRInput.Button.Two)){
+            onHighlight();
+        }
+        if (OVRInput.GetDown(OVRInput.Button.One))
+        {
+            offHighlight();
+        }
     }
 
     //when main interaction start
@@ -24,7 +31,8 @@ public class SwitchAnimation : MonoBehaviour
     {
         animator.SetBool("isGun", true);
         animator.SetTrigger("initGun");
-        ShowGun();
+        Invoke("ShowGun", 3);
+        //ShowGun();
     }
 
     //when main interaction end

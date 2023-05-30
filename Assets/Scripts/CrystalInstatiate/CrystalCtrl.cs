@@ -66,7 +66,7 @@ public class CrystalCtrl : MonoBehaviour
 
         //Destroy(desEffect,1.0f); //오브젝트 파괴
 
-        Destroy(this.gameObject,2); //오브젝트 파괴
+        Destroy(this.gameObject, 0.2f); //오브젝트 파괴
 
     }
 

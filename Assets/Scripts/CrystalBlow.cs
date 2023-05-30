@@ -5,12 +5,12 @@ using UnityEngine;
 public class CrystalBlow : MonoBehaviour
 {
     [SerializeField] private GameObject blowVersion;
-    [SerializeField] private GameObject ExplosionVersion;
-    public float ExplosionDelayTime;
+    //[SerializeField] private GameObject ExplosionVersion;
+    //public float ExplosionDelayTime;
     // Start is called before the first frame update
     void Start()
     {
-        Invoke("AutoExplosion", ExplosionDelayTime);
+        //Invoke("AutoExplosion", ExplosionDelayTime);
 //        AutoExplosion();    //물체 생성 스크립트에서 참초해 사용할 거면 지우기
     }
 
@@ -27,9 +27,10 @@ public class CrystalBlow : MonoBehaviour
     }
 
     //물체 자동 파괴 함수 
-    public void AutoExplosion()
-    {
-        Instantiate(ExplosionVersion, transform.position, transform.rotation);
-        Destroy(gameObject); 
-    }
+    //public void AutoExplosion()
+    //{
+    //    Instantiate(ExplosionVersion, transform.position, transform.rotation);
+        
+    //    Destroy(gameObject, 1);
+    //}
 }

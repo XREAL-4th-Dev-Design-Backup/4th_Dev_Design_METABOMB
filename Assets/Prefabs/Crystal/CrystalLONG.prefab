@@ -15,9 +15,10 @@ GameObject:
   - component: {fileID: 8404580297373621803}
   - component: {fileID: -7312050204071298621}
   - component: {fileID: 2348717237365219616}
+  - component: {fileID: 6298502373720221959}
   m_Layer: 0
   m_Name: CrystalLONG
-  m_TagString: Untagged
+  m_TagString: crystal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -116,6 +117,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blowVersion: {fileID: 4559088338813359958, guid: 37d24cdce651340eeb22359d54b836ab, type: 3}
+  ExplosionVersion: {fileID: 8592521626910722175, guid: 1b15aa4da97ebf84796098ed28b36681, type: 3}
+  ExplosionDelayTime: 10
 --- !u!114 &-7312050204071298621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,7 +135,7 @@ MonoBehaviour:
   shotAngle: 5
   destroyTime: 3
   crystalEffect: {fileID: 1154897201793896, guid: 129514dafc9d9694abed61b5beaae1c5, type: 3}
-  crystalExplosionEffect: {fileID: 100002, guid: f7efb0d9df2264096af57128df85dddb, type: 3}
+  crystalExplosionEffect: {fileID: 8592521626910722175, guid: 1b15aa4da97ebf84796098ed28b36681, type: 3}
 --- !u!114 &2348717237365219616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,3 +148,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35862692c27ce84db8a837ba78f47f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!136 &6298502373720221959
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6176500388640026800}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.14213586
+  m_Height: 1.2420566
+  m_Direction: 1
+  m_Center: {x: -0.0099178925, y: 0.045780748, z: 0.0015624315}
