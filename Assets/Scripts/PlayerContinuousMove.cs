@@ -11,6 +11,7 @@ public class PlayerContinuousMove : MonoBehaviour
     public OVRCameraRig CameraRig;
     public float RotationAngle = 45.0f;
     private Vector3 moveDir;
+    private Vector3 position;
 
     private void Awake()
     {

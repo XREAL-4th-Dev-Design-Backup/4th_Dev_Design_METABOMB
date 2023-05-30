@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a31578f7c2abbfe4c8a0a495888a5c36
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - guitarPrefab: {instanceID: 0}
+  - ElectroHitPrefab: {fileID: 1483866390237726643, guid: cc28b8f0359d88d4ab976aa8a9002fef, type: 3}
+  - portalPrefab: {fileID: 5599816436789347325, guid: a099940ccafd7944493cc491b04ad459, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

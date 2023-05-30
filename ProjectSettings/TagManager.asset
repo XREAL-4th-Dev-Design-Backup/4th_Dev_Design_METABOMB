@@ -6,7 +6,7 @@ TagManager:
   tags:
   - crystal
   - bong
-  - cylinder
+  - metabomb
   layers:
   - Default
   - TransparentFX
@@ -14,9 +14,9 @@ TagManager:
   - 
   - Water
   - UI
+  - Grabbable
   - 
-  - Left Hand Physcis
-  - Right Hand Physics
+  - 
   - 
   - 
   - 
