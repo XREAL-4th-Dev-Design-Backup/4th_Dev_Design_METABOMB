@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/festival3.unity
     guid: 9f04b09cee914654db73eccee55db252
   - enabled: 1
-    path: Assets/MetaBomb/Scenes/ing.unity
+    path: Assets/Scenes/CityScence.unity
     guid: 11c8131c665b409448dcb24f10312cfc
   - enabled: 1
     path: Assets/Scenes/festival2.unity
