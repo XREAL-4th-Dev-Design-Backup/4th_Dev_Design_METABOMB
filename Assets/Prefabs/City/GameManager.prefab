@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &790238069402671767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 790238069402671761}
+  - component: {fileID: 790238069402671760}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &790238069402671761
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790238069402671767}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &790238069402671760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790238069402671767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a31578f7c2abbfe4c8a0a495888a5c36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  fadeIn: {fileID: 0}
+  guitarPrefab: {fileID: 4163898270765446849, guid: 3b85de624cfb3fe4e95f7ecfd9b40cac, type: 3}
+  ElectroHitPrefab: {fileID: 1483866390237726643, guid: cc28b8f0359d88d4ab976aa8a9002fef, type: 3}
+  portalPrefab: {fileID: 5599816436789347325, guid: a099940ccafd7944493cc491b04ad459, type: 3}
+  MetaSphere: {fileID: 5053827942477837096, guid: 0405c90908a3c8b4baf86fd8d815722b, type: 3}
+  Supernova: {fileID: 4104773035575612472, guid: 68f9f55fe327060458e7cf44c9789b90, type: 3}
+  MetabombTP: {fileID: 4060397824954868407, guid: 5410f9cdf82f2364196dc351446ff3ea, type: 3}
+  MetaBomb: {fileID: 8106791063113405763, guid: f1588283658213743b41ba2712ab54af, type: 3}
+  Thunder: {fileID: 8411586056187203469, guid: 28f0b05d2299ab542a5a3b5124190b03, type: 3}
+  MetabombSurface: {fileID: 1165587325665085170, guid: 70d9e03be7a30654c97e1fccfe8fbede, type: 3}
+  MagicShield: {fileID: 2852602835188039637, guid: ddd0a1cd147de5040b12aaae034ef54f, type: 3}
+  MagicSphere: {fileID: 4172992205134570627, guid: 8bbd8d581681c2741a1c36648f23a0f3, type: 3}
+  ShockWave: {fileID: 2506221140079719938, guid: ccc0d2bc2a111744c8d462b461f04e04, type: 3}
+  GlowFlare: {fileID: 5392012456430607697, guid: 64001b11cdb2de94598f7761882efa06, type: 3}

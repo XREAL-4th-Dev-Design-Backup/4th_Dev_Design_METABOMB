@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -77,12 +78,15 @@ public class GameManager : MonoBehaviour
         portal = Instantiate(portalPrefab);
         glowflare = Instantiate(GlowFlare);
 
-        yield return new WaitForSeconds(1.0f);
+        yield return new WaitForSeconds(2.0f);
         Player.GetComponent<CityMove>().enabled = false;
         Player.GetComponent<PortalEnter>().enabled = true;
 
         yield return new WaitForSeconds(1.0f);
         fadeIn.FadeOut();
+
+        yield return new WaitForSeconds(3.0f);
+        SceneManager.LoadScene("festival2");
     }
     void GenerateGuitar()
     {
