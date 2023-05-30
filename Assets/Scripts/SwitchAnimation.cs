@@ -16,6 +16,7 @@ public class SwitchAnimation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //for test (Debuging)
         if (OVRInput.GetDown(OVRInput.Button.Two)){
             onHighlight();
         }
