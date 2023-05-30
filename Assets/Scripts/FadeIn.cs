@@ -16,14 +16,11 @@ public class FadeIn : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            OFade.FadeOut();
-        }
-        if (Input.GetMouseButtonDown(1))
-        {
-            OFade.FadeIn();
-        }
+            
+    }
+    public void FadeOut()
+    {
+        OFade.FadeOut();
     }
 
 }

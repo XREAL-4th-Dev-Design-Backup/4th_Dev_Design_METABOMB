@@ -5,6 +5,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     // Start is called before the first frame update
+    public GameObject Player;
+    public FadeIn fadeIn;
     public GameObject guitarPrefab;
     public GameObject ElectroHitPrefab;
     public GameObject portalPrefab;
@@ -14,6 +16,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        Player.GetComponent<PortalEnter>().enabled = false;
         StartCoroutine(GenerateMetaBomb());
     }
 
@@ -75,6 +78,11 @@ public class GameManager : MonoBehaviour
         glowflare = Instantiate(GlowFlare);
 
         yield return new WaitForSeconds(1.0f);
+        Player.GetComponent<CityMove>().enabled = false;
+        Player.GetComponent<PortalEnter>().enabled = true;
+
+        yield return new WaitForSeconds(1.0f);
+        fadeIn.FadeOut();
     }
     void GenerateGuitar()
     {
