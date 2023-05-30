@@ -54,9 +54,14 @@ public class AudioManager : MonoBehaviour
                     gameObject.GetComponent<BPM>().enabled = true;
                     cylinders.SetActive(true);
                 }
-                //총 -> 응원봉 전환
-                GameObject.Find("04_Stickv7_left").GetComponent<SwitchAnimation>().offHighlight();
-                GameObject.Find("04_Stickv7_right").GetComponent<SwitchAnimation>().offHighlight();
+                else
+                {
+                    //총 -> 응원봉 전환
+                    GameObject.Find("04_Stickv7_left").GetComponent<SwitchAnimation>().offHighlight();
+                    GameObject.Find("04_Stickv7_right").GetComponent<SwitchAnimation>().offHighlight();
+                }
+                
+                
 
 
 

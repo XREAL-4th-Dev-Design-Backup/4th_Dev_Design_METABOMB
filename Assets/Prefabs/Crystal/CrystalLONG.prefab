@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5672189246582870373}
   - component: {fileID: -7743878986905395278}
   - component: {fileID: 8404580297373621803}
-  - component: {fileID: -7312050204071298621}
+  - component: {fileID: 5548495378248511038}
   - component: {fileID: 2348717237365219616}
   - component: {fileID: 6298502373720221959}
   m_Layer: 0
@@ -117,9 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blowVersion: {fileID: 4559088338813359958, guid: 37d24cdce651340eeb22359d54b836ab, type: 3}
-  ExplosionVersion: {fileID: 8592521626910722175, guid: 1b15aa4da97ebf84796098ed28b36681, type: 3}
-  ExplosionDelayTime: 10
---- !u!114 &-7312050204071298621
+--- !u!114 &5548495378248511038
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -128,7 +126,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6176500388640026800}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399073c828b7acf48a4e14dc8eaf9c86, type: 3}
+  m_Script: {fileID: 11500000, guid: bfd4045b5acf1b5438d0b9eecc4ef3c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   shotVelocity: 16
