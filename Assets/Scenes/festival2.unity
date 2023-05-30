@@ -7729,11 +7729,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   intro_music:
-  - {fileID: 8300000, guid: 20f7087ea66ec4b48b882a438f0b50ef, type: 3}
-  - {fileID: 8300000, guid: 385601750ea03cd498b65c49f42712b1, type: 3}
-  - {fileID: 8300000, guid: b5824f91f504fc34399c9b3fcdc26cdd, type: 3}
-  - {fileID: 8300000, guid: eba3ab4b297af674fb1755b329441f7d, type: 3}
-  - {fileID: 8300000, guid: 1c04cf7ab25e83b4da29c9d28c07d38e, type: 3}
+  - {fileID: 8300000, guid: 42926b73af1c7ec47852639d123fafcf, type: 3}
+  - {fileID: 8300000, guid: 31c7f9bb8164c3a4c8030e7845e47da9, type: 3}
+  - {fileID: 8300000, guid: 444a3e1a1c0dfc34ba33c40ac486304d, type: 3}
+  - {fileID: 8300000, guid: 8749dd5f2b8ac844abbc3b88511f9aa6, type: 3}
+  - {fileID: 8300000, guid: 51f125197b813c44c9664556190d9e1a, type: 3}
   cylinders: {fileID: 714783962}
 --- !u!82 &704825127
 AudioSource:
@@ -7747,7 +7747,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -13780,7 +13780,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2248851263954617545, guid: c60dd347aa8d3d84ebbaedb387eae162, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2248851263954617546, guid: c60dd347aa8d3d84ebbaedb387eae162, type: 3}
       propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.size
@@ -16803,6 +16803,10 @@ PlayableDirector:
   - key: {fileID: -1629949051136848118, guid: 44693cd46bcd4df48ae24ac3ee7bde62, type: 2}
     value: {fileID: 140899471}
   - key: {fileID: -8994774456373332000, guid: 44693cd46bcd4df48ae24ac3ee7bde62, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 5300162153739307313, guid: 44693cd46bcd4df48ae24ac3ee7bde62, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -1879995531137326371, guid: 44693cd46bcd4df48ae24ac3ee7bde62, type: 2}
     value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
