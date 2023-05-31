@@ -8,6 +8,7 @@ public class ShakeVibration : MonoBehaviour
     public float shakeThreshold = 0.5f; // 흔들림 감지 임계값
     public float vibrationDuration = 0.2f; // 진동 지속 시간
     public float vibrationStrength = 0.5f; // 진동 강도
+    
 
     private bool isShaking = false; // 흔들림 감지 여부
     private float shakeStartTime; // 흔들림 감지 시작 시간

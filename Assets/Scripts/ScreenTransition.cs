@@ -13,7 +13,7 @@ public class ScreenTransition : MonoBehaviour
 
     IEnumerator TransitionAfterDelay()
     {
-        float delay = 2 * 60 + 33; // 대기 시간 (2분 33초)
+        float delay = 2 * 60 + 31; // 대기 시간 (2분 31초; 9089)
         yield return new WaitForSeconds(delay);
 
         fadeScreen.FadeOut();

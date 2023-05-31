@@ -50,7 +50,7 @@ public class AudioManager : MonoBehaviour
                     //응원봉 -> 총 전환
                     GameObject.Find("04_Stickv7_left").GetComponent<SwitchAnimation>().onHighlight();
                     GameObject.Find("04_Stickv7_right").GetComponent<SwitchAnimation>().onHighlight();
-                    print("하이라이트구간");
+                    Debug.Log("하이라이트구간");
                     gameObject.GetComponent<BPM>().enabled = true;
                     cylinders.SetActive(true);
                 }
