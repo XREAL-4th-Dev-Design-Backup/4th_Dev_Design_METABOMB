@@ -160,7 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f93c92a54bb35684785fc05b21d09e06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  crystalPrefab: {fileID: 6176500388640026800, guid: 9ec11ea2d2837704697505520416e62d, type: 3}
+  crystalPrefab: {fileID: 4063841269085348731, guid: 9245caf56388402409846127a36ce590, type: 3}
   crystalInstantiateEffect: {fileID: 0}
   destroyTime: 3
 --- !u!1001 &8020624915034871939
