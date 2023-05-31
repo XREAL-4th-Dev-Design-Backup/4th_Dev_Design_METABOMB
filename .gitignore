@@ -74,3 +74,6 @@ crashlytics-build.properties
 # vs / rider config
 *.vsconfig
 .idea/
+Assets/.DS_Store
+Assets/MetaBomb/.DS_Store
+Assets/MetaBomb/props/.DS_Store
