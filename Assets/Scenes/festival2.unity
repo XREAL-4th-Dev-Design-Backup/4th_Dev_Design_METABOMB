@@ -19894,6 +19894,34 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1210397050, guid: 277ad47250b55a4449bc8bde3065201c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210397053, guid: 277ad47250b55a4449bc8bde3065201c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210397053, guid: 277ad47250b55a4449bc8bde3065201c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210397053, guid: 277ad47250b55a4449bc8bde3065201c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210397053, guid: 277ad47250b55a4449bc8bde3065201c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210397053, guid: 277ad47250b55a4449bc8bde3065201c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210397053, guid: 277ad47250b55a4449bc8bde3065201c, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1778182280, guid: 277ad47250b55a4449bc8bde3065201c, type: 3}
       propertyPath: clapFx
       value: 
