@@ -56,7 +56,6 @@ public class GameManager : MonoBehaviour
         
         Destroy(prev);
         electrohit = Instantiate(ElectroHitPrefab);
-        Destroy(electrohit, 1.0f);
         shockwave = Instantiate(ShockWave);
 
         yield return new WaitForSeconds(1.0f);
