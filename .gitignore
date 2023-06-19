@@ -74,3 +74,10 @@ crashlytics-build.properties
 # vs / rider config
 *.vsconfig
 .idea/
+Assets/.DS_Store
+Assets/MetaBomb/.DS_Store
+Assets/MetaBomb/props/.DS_Store
+Assets/MetaBomb/props/3D_Assets/Head_3.obj.meta
+Assets/Oculus/Voice/Demo/.DS_Store
+Assets/Oculus/VR/.DS_Store
+Assets/Oculus/VR/Textures/.DS_Store

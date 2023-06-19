@@ -3,17 +3,21 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - crystal
+  - bong
+  - metabomb
+  - cylinder
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - PostProcessing
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Grabbable
+  - LeftHandPhysics
+  - RightHandPhysics
   - 
   - 
   - 
