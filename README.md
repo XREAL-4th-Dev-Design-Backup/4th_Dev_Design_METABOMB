@@ -58,22 +58,22 @@ METAVERSE + MUSIC FESTIVAL
 
 - 인터렉션 1 (Shake)
 
-![ezgif com-video-to-gif (5)](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/5b784908-6fa7-4328-b85f-df8df5f8eea7)
+![ezgif com-video-to-gif (2)](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/71fdb7ff-47cf-47bf-b523-e95c83865b87)
 
 
 - 인터렉션 2 (Clap)
 
-![ezgif com-video-to-gif (4)](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/54fdba42-bcba-4ccb-b478-62b0f4fa4931)
+![ezgif com-video-to-gif (3)](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/2ae98f33-6748-499f-b3e1-3b6520fda306)
 
 
 - Audio Visualization
 
-![ezgif com-video-to-gif (7)](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/67f9d340-f1e1-4e8c-bb3f-f6739bcf8637)
+![ezgif com-video-to-gif](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/293b972f-38ed-4c41-b11e-3bfdabc2fb8c)
 
 
 - 텔레포트
 
-![ezgif com-video-to-gif (6)](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/ceb0aea8-c924-4843-af63-240654091e4b)
+![ezgif com-video-to-gif (1)](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/641779c6-a0cf-4bd7-bd76-c040dcdc1303)
 
 
 - 하이라이트
