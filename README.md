@@ -78,17 +78,15 @@ METAVERSE + MUSIC FESTIVAL
 
 - 하이라이트
 
-  
-![ezgif com-video-to-gif (11)](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/2be33bab-5a48-47e7-b5a0-ed387348c7b7)
+![ezgif com-video-to-gif (3)](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/f740ace5-16e1-4694-bf50-170682298b01)
+![ezgif com-video-to-gif (1)](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/68bdf2c4-df14-47a9-9a93-c20177b74e88)
+![ezgif com-video-to-gif](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/d339b340-6a28-4e3e-8e12-d6115c699c69)
 
-![ezgif com-video-to-gif (9)](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/b8c4e767-cd17-4723-be50-497747f43e58)
-
-![ezgif com-video-to-gif (8)](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/a32d7aae-5d6d-44a5-8e8e-d56a285e8a20)
 
 
 - 엔딩
   
-![ezgif com-video-to-gif (10)](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/6332e70b-d840-431f-92b4-56a98621be1a)
+![ezgif com-video-to-gif (2)](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/b73985bb-2f3e-49f2-9dd1-d093c06c2867)
 
 #
 
