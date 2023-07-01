@@ -40,14 +40,15 @@ METAVERSE + MUSIC FESTIVAL
 
 - Grab
 
-![ezgif com-video-to-gif](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/45b32d02-d0a3-4218-a48c-e5238c3c2e3d)
-![ezgif com-video-to-gif (1)](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/f6849342-dea3-4051-a020-4b3bc384687f)
+![ezgif com-video-to-gif](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/3f5ec0a0-a630-4783-9788-47175286a565)
+![ezgif com-video-to-gif (1)](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/4242625c-8912-4dde-b634-d1b0b8f1fc03)
 
 
 - 씬 전환
 
-![ezgif com-video-to-gif (2)](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/a5a5779e-1ae6-4368-916b-3c4ae9e53999)
-![ezgif com-video-to-gif (3)](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/a5f69b5e-396d-4a24-baef-1049cc453c9b)
+![ezgif com-video-to-gif (2)](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/46d24d16-7027-4766-bff3-2fe746141ecc)
+![ezgif com-video-to-gif (3)](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/7519fa1b-0bfd-42e2-ba31-528e214473a6)
+
 
 
 #### 2. Meta-Festival (Scene2)
