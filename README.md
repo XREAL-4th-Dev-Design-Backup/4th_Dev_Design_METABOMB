@@ -3,7 +3,8 @@
 METAVERSE + MUSIC FESTIVAL
 
 메타버스 음악 페스티벌을 즐길 수 있는 전용 플랫폼
-![image](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/900fa343-2ffe-4794-a118-7ff4032b2f2c)
+![1](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/a9b139fa-e0eb-4641-a8d0-b97a88a48f27)
+
 
 #
 ### 공연산업 X 메타버스의 장점
@@ -34,7 +35,8 @@ METAVERSE + MUSIC FESTIVAL
 #
 ### 구현 내용
 #### 1. Meta-City (Scene1)
-![image](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/ef561194-c7ce-48a6-b5a4-d366a4ea123d)
+![metacity](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/b8ba3dc2-36ee-41ea-983a-ccf9a9c16a79)
+
 
 - Grab
 
@@ -49,7 +51,7 @@ METAVERSE + MUSIC FESTIVAL
 
 
 #### 2. Meta-Festival (Scene2)
-![image](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/a587622c-67fb-434b-a906-3e36cc36fd6e)
+![metafestival](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/4a5c040b-d82a-4ddc-b8e4-8f883211641c)
 
 
 
@@ -93,4 +95,5 @@ METAVERSE + MUSIC FESTIVAL
 ###### 개발 기간: 23.05.04 ~ 23.05.31
 ###### 디자이너: 김현명, 안은빈, 유민서, 추윤석
 ###### 개발자: 김채연, 박세웅, 신주홍, 이유진, 이현민
-![image](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/8f31b7a6-c2a7-4db1-9aa8-b409433cbd46)
+
+![end](https://github.com/XREAL-4th/4th_Dev_Design_METABOMB/assets/82865552/9cc4001d-e671-4f64-afd5-fa0c3b64ed8f)
